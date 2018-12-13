@@ -1,0 +1,158 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  background-image: url('../images/morocco-blue.png');
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 20px;
+  background: #648880;
+  width: 100%;
+  border: 4px solid #000;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+
+*/
+p {
+  color: white;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+  ========================================
+  Images
+  ========================================
+*/
+
+#portrait {
+  float: left;
+  padding: 0px 20px;
+  inline-size: 25%;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.banner {
+  padding: 20px 226px 10px 226px;
+  background: #293f50;
+  color: white;
+  margin: 0px -226px 20px -226px;
+}
+
+#logo {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 38px;
+  font-weight: 200;
+  letter-spacing: .5px;
+  line-height: 42px;
+  text-transform: uppercase;
+  padding: 11px;
+  color: white;
+  float: left;
+  background: #648880;
+  width: 450px;
+  margin-top: -10px;
+  margin-bottom: -4px;
+}
+
+/*
+  ========================================
+  Main section
+  ========================================
+*/
+
+.background {
+  background: #648880;  /* Cornflower blue */
+}
+
+#about {
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 32px;
+  margin: -20px 0px 0px 22px;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+  color: #87cefa; /* light sky blue */
+  font-size: 14\6px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 10px 10px 10px 226px;
+  background: #293f50;
+  border-top: 4px solid #648880;
+  margin: 0px -226px 0px -226px;
+  flex-shrink: 0;
+}
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #648880; /* viridian Green */
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9; /* hit grey */
+}
+
+.active-link {
+  color: white;
+  background-color: #648880; /* viridian Green */
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border: 10;
+  border-color: #87cefa; /* light sky blue */
+  background: #293f50; /* pickled bluewood */
+  padding: 11px 30px;
+  font-size: 20px;
+  margin-bottom: -100px;
+}
+
+.btn:hover {
+  background: #77a198;
+}
+
+
+
