@@ -21,6 +21,10 @@ section {
   margin-top: -70px;
 }
 
+.caption {
+  text-align: center;
+}
+
 /*
   ========================================
   Typography
